@@ -1,6 +1,6 @@
 package org.yulran.lesson4.hfgd;
 
-public abstract class User  {
+public abstract class User  {//
 
 
     public  String Username;

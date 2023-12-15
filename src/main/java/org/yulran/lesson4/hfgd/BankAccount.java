@@ -3,7 +3,7 @@ package org.yulran.lesson4.hfgd;
 import java.util.Currency;
 
 public class BankAccount {
-   // private Currency currency;
+   // private Currency currency;//
     private User owner;
     private double balance;
     private double interestRate;//

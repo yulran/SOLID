@@ -2,7 +2,7 @@ package org.yulran.lesson4;
 
 import org.yulran.lesson4.hfgd.ICurrency;
 
-abstract public class Currency implements ICurrency {
+abstract public class Currency implements ICurrency {//
 
     protected String type;
     protected double exchangeRate;

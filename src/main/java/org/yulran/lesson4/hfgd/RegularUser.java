@@ -1,6 +1,6 @@
 package org.yulran.lesson4.hfgd;
 
-@UserTypeAnnotation(defaultActivityLevel = 5)
+@UserTypeAnnotation(defaultActivityLevel = 5)//
 public class RegularUser extends UserType implements DisplayInformation{
     private int activityLevel;
     boolean isPremium=false;

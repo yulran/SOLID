@@ -14,7 +14,7 @@ class UserType extends User implements DisplayInformation{
     }
 
     @Override
-    public void displayAllInfo() {
+    public void displayAllInfo() {//
 
     }
 

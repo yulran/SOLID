@@ -1,5 +1,5 @@
 package org.yulran.lesson4.hfgd;
 
 public interface AccountCounter {
-    void addtoMyAcounts(BankAccount bankAccount);
+    void addtoMyAcounts(BankAccount bankAccount);//
 }
