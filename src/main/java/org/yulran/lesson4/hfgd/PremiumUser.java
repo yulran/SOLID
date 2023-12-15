@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 @UserTypeAnnotation(defaultPremiumStatus = true)
 public class PremiumUser extends UserType implements AccountCounter,DisplayInformation{
-ArrayList<BankAccount> MyAccounts= new ArrayList<>();
+ArrayList<BankAccount> MyAccounts= new ArrayList<>();//
     private boolean isPremium;
     public PremiumUser(String Username, String SecondName,String Email,boolean isPremium) {
         super(Username,SecondName,Email);
