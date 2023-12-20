@@ -1,6 +1,7 @@
-package org.yulran.lesson4.hfgd;
+package org.yulran.lesson4.Currencyies;
 
-import org.yulran.lesson4.Currency;//
+import org.yulran.lesson4.hfgd.Interfaces.Currency;//
+import org.yulran.lesson4.hfgd.Interfaces.ICurrency;
 
 public class USD extends Currency implements ICurrency {
     public USD(String type, double exchangeRate) {

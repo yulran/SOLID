@@ -1,18 +1,14 @@
-package org.yulran.lesson4.hfgd;
+package org.yulran.lesson4.hfgd.Interfaces;
 
-import org.yulran.lesson4.hfgd.Interfaces.BaseBankAccount;
-import org.yulran.lesson4.hfgd.Interfaces.ICurrency;
 import org.yulran.lesson4.Users.User;
 
-public class BankAccount extends BaseBankAccount {
-
-    private final User owner;
+public abstract class BaseBankAccount {
+    private User owner;
     protected double balance;
     private double interestRate;//
     private double creditLimit;
     private ICurrency Icurrency;
-    public BankAccount(User owner, ICurrency Icurrency, double initialBalance) {
-        super( owner,  Icurrency,  initialBalance);
+    public BaseBankAccount(User owner, ICurrency Icurrency, double initialBalance) {
         this.owner = owner;
         this.Icurrency = Icurrency;
         this.balance = initialBalance;
@@ -22,13 +18,13 @@ public class BankAccount extends BaseBankAccount {
     }
 
 
-   // public void displayAccountInfo() {
-     //   System.out.println("Інформація про банківський рахунок:");
-     //   System.out.println("Власник: " + owner.getUsername());
-      //  System.out.println("Баланс: " + balance + " " +Icurrency);
-       // System.out.println("Процентна ставка: " + interestRate + "%");
-      //  System.out.println("Кредитний ліміт: " + creditLimit + " " +Icurrency);
-    //}
+   // public void displayAllAccountInfo() {
+      //  System.out.println("Інформація про банківський рахунок:");
+       // System.out.println("Власник: " + owner.getUsername());
+       // System.out.println("Баланс: " + balance + " " +Icurrency);
+        //System.out.println("Процентна ставка: " + interestRate + "%");
+       // System.out.println("Кредитний ліміт: " + creditLimit + " " +Icurrency);
+   // }
     public void addMoney(double amount) {
         balance += amount;
         System.out.println("Внесено: " + amount + " " + Icurrency);
@@ -58,7 +54,4 @@ public class BankAccount extends BaseBankAccount {
     public User getOwner() {
         return owner;
     }
-
-
-
 }

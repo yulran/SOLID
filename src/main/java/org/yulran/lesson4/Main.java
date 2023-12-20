@@ -1,9 +1,10 @@
 package org.yulran.lesson4;
 
+import org.yulran.lesson4.Currencyies.EUR;
 import org.yulran.lesson4.hfgd.BankAccount;
-import org.yulran.lesson4.hfgd.ICurrency;
-import org.yulran.lesson4.hfgd.PremiumUser;
-import org.yulran.lesson4.hfgd.USD;
+import org.yulran.lesson4.hfgd.Interfaces.ICurrency;
+import org.yulran.lesson4.Users.PremiumUser;
+import org.yulran.lesson4.Currencyies.USD;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.

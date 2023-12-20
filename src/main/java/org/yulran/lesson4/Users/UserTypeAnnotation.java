@@ -1,4 +1,4 @@
-package org.yulran.lesson4.hfgd;
+package org.yulran.lesson4.Users;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

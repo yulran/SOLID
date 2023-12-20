@@ -1,9 +1,14 @@
-package org.yulran.lesson4.hfgd;
+package org.yulran.lesson4.Users;
+
+import org.yulran.lesson4.hfgd.BankAccount;
+import org.yulran.lesson4.hfgd.Interfaces.AccountCounter;
+import org.yulran.lesson4.hfgd.UserType;
+import org.yulran.lesson4.hfgd.UserTypeAnnotationDefaults;
 
 import java.util.ArrayList;
 
 @UserTypeAnnotation(defaultPremiumStatus = true)
-public class PremiumUser extends UserType implements AccountCounter,DisplayInformation{
+public class PremiumUser extends UserType implements AccountCounter {
 ArrayList<BankAccount> MyAccounts= new ArrayList<>();///
     private boolean isPremium;
     public PremiumUser(String Username, String SecondName,String Email,boolean isPremium) {
@@ -17,12 +22,8 @@ ArrayList<BankAccount> MyAccounts= new ArrayList<>();///
         this.isPremium = newStatus;
         System.out.println("Статус преміум-користувача оновлено: " + newStatus);
     }
-@Override
-    public void displayAllInfo() {
-    System.out.println("імя  :" +Username+ " фамилия  :"+SecondName+ "статус  :"+ isPremium);
-        System.out.println("Інформація про преміум-користувача: " +
-                "Статус преміум = " + isPremium);
-    }
+
+  //
 
 
 

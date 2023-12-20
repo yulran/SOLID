@@ -1,6 +1,4 @@
-package org.yulran.lesson4;
-
-import org.yulran.lesson4.hfgd.ICurrency;
+package org.yulran.lesson4.hfgd.Interfaces;
 
 abstract public class Currency implements ICurrency {//
 

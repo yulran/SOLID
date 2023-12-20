@@ -1,4 +1,4 @@
-package org.yulran.lesson4.hfgd;
+package org.yulran.lesson4.Users;
 
 public abstract class User  {//
 
@@ -16,6 +16,13 @@ public User(String Username, String SecondName,String Email){
         return Username;
     }
 
+    public String getSecondName() {
+        return SecondName;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
 }
 
 

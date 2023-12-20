@@ -1,6 +1,7 @@
-package org.yulran.lesson4;
+package org.yulran.lesson4.Currencyies;
 
-import org.yulran.lesson4.hfgd.ICurrency;
+import org.yulran.lesson4.hfgd.Interfaces.ICurrency;
+import org.yulran.lesson4.hfgd.Interfaces.Currency;
 
 public class EUR extends Currency implements ICurrency {
 

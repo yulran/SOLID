@@ -1,7 +1,7 @@
-package org.yulran.lesson4.hfgd;
+package org.yulran.lesson4.Users;
 
 @UserTypeAnnotation
-class UserType extends User implements DisplayInformation{
+class UserType extends User  {
 
 
     public UserType(String Username,String SecondName,String Email) {
@@ -14,7 +14,7 @@ class UserType extends User implements DisplayInformation{
     }
 
     @Override
-    public void displayAllInfo() {//
+    public void displayAllInfo() {
 
     }
 
